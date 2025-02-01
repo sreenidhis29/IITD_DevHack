@@ -1,0 +1,21 @@
+.modal-header{
+  color: #173278;
+}
+.modal-content{
+  background-color: #c4cae7;
+}
+.btn-secondary,.btn-secondary:hover{
+  background-color: red;
+  border: none;
+}
+.btn-primary,.btn-primary:hover{
+  background-color: #173278;
+  border: none;
+}
+.pid{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: 1px black ;
+  border-radius: 1rem;
+  font-size: 1rem;
+}

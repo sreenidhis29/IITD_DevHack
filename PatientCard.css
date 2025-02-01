@@ -1,0 +1,30 @@
+.ptCard{
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  padding: 1em;
+  background-color: #1733785f;
+  color: white;
+  border-radius: 0.5em;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  color:#031239;
+  align-items: flex-end;
+}
+.info>h6{
+  font-size: small;
+}
+.copy{
+  cursor: pointer;
+}
+.btns{
+  display: flex;
+  gap: 0.5em;
+  width: max-content;
+}
