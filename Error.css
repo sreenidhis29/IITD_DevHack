@@ -1,0 +1,13 @@
+.errorPage{
+  background-color:#e6e2e271 ;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+.errorImg{
+  max-width: 50%;
+  margin-bottom: 3vh;
+}
+.close{
+  margin-top: 1vh;
+}
