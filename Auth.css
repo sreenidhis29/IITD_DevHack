@@ -1,0 +1,56 @@
+.auth{
+  display: flex;
+  flex-direction: row;
+}
+.auth>h6{
+  position: absolute;
+  bottom: 1em;
+  right: 2em;
+}
+.left{
+  position: relative;
+  background-color: #8dcef4;
+  height: 100vh;
+  width: 50vw;
+  padding-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+  height:3em ;
+  width: fit-content;
+}
+.left>h2{
+  color: #fff;
+  text-shadow: 1px 1px black;
+}
+.imgDr{
+  overflow: hidden;
+  margin-top: auto;
+  bottom: 0%;
+}
+.right{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-self: center;
+  margin-inline: auto;
+  background-color: #F5F5F5;
+}
+.logIn>h3,.register>h3{
+  text-align: center;
+  margin-bottom: 1em;
+}
+.btnAuth{
+  width: 100%;
+  margin-bottom: 1em;
+  background-color: #173278;
+}
+span>button{
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
